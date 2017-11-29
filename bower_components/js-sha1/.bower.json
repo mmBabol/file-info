@@ -1,0 +1,22 @@
+{
+  "name": "js-sha1",
+  "version": "0.5.0",
+  "main": [
+    "src/sha1.js"
+  ],
+  "ignore": [
+    "samples",
+    "tests"
+  ],
+  "homepage": "https://github.com/emn178/js-sha1",
+  "_release": "0.5.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.5.0",
+    "commit": "0f22bdd02b357f83cc155f5b1d8a3eb29b62e5cb"
+  },
+  "_source": "https://github.com/emn178/js-sha1.git",
+  "_target": "^0.5.0",
+  "_originalSource": "js-sha1",
+  "_direct": true
+}
