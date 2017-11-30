@@ -11,3 +11,4 @@ if (process.argv.length = 2) {
 }
 
 console.log("The name of this file is " + myFile.substr(myFile.indexOf("/") + 1));
+return "The name of this file is " + myFile.substr(myFile.indexOf("/") + 1);

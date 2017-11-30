@@ -5,15 +5,21 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.2",
+    "js-md5": "^0.7.2",
     "js-sha1": "^0.5.0",
     "object-sizeof": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "npm install express",
-    "sha1": "npm install js-sha1",
-    "sizeof": "npm install object-sizeof"
+    "test": "node src/FileName.js",
+    "name": "node src/FileName.js",
+    "size": "node src/FileSize.js",
+    "sha1": "node src/Sha1Digest.js",
+    "md5": "node src/MD5Digest.js",
+    "install_npm": "npm install express",
+    "install_sha1": "npm install js-sha1",
+    "install_md5": "npm install js-md5",
+    "install_sizeof": "npm install object-sizeof"
   },
   "repository": {
     "type": "git",

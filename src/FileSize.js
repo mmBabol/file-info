@@ -11,4 +11,5 @@ if (process.argv.length = 2) {
 	myFile = "sample/sample.txt";
 }
 
-console.log("This file has " + sizeof(myFile) + " bytes.");
+//console.log("This file has " + sizeof(myFile) + " bytes.");
+return "This file has " + sizeof(myFile) + " bytes.";

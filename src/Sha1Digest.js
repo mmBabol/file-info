@@ -16,5 +16,6 @@ var fs = require('fs'), filename = myFile;
 fs.readFile(filename, 'utf8', function(err, data) {
   if (err) throw err;
   // Print SHA1 hash to of text file to screen
-  console.log(sha1(data))
+  //console.log(sha1(data))
+  return sha1(data);
 });
