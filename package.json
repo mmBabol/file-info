@@ -2,24 +2,21 @@
   "name": "file-info",
   "version": "1.0.0",
   "description": "DPS902 Open Source lab",
-  "main": "index.js",
+  "main": "src/file-info.js",
   "dependencies": {
     "express": "^4.16.2",
     "js-md5": "^0.7.2",
     "js-sha1": "^0.5.0",
     "object-sizeof": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1"
+  },
   "scripts": {
-    "test": "node src/FileName.js",
-    "name": "node src/FileName.js",
-    "size": "node src/FileSize.js",
-    "sha1": "node src/Sha1Digest.js",
-    "md5": "node src/MD5Digest.js",
-    "install_npm": "npm install express",
-    "install_sha1": "npm install js-sha1",
-    "install_md5": "npm install js-md5",
-    "install_sizeof": "npm install object-sizeof"
+    "start": "node src/FileName.js | node src/FileSize.js | node src/MD5Digest.js | node src/Sha1Digest.js",
+    "test": "jest",
+    "install": "npm install express | npm install js-sha1 | npm install js-md5 | npm install object-sizeof"
   },
   "repository": {
     "type": "git",
