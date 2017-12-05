@@ -1,6 +1,8 @@
 var md5 = require('js-md5');  // npm install js-md5
 
-function md5(myFilePass){
+console.log(myMd5('sample/sample.txt'));
+
+function myMd5(myFilePass){
   // Read the file and print its contents.
   var fs = require('fs'), filename = myFilePass;
 
@@ -8,4 +10,4 @@ function md5(myFilePass){
   return md5(result);
 }
 
-module.exports = md5;
+module.exports = myMd5;
