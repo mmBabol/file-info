@@ -13,7 +13,7 @@ projects on GitHub, using and contributing to GitHub, as well as documenting.
 
 ## Installation
 
-* Clone repo using Terminal with `https://github.com/mmBabol/file-info.git`
+* Clone repo using Terminal with `git clone https://github.com/mmBabol/file-info.git`
 * Navigate into the directory with `cd file-info`
 * Install node modules with  `npm install`
 
