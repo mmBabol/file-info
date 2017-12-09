@@ -1,5 +1,5 @@
 # File-info
-[![BuildStatus](https://travis-ci.org/mmbabol/file-info.svg?branch=master)](https://travis-ci.org/mmbabol/file-info)
+[![BuildStatus](https://travis-ci.org/mmBabol/file-info.svg?branch=master)](https://travis-ci.org/mmBabol/file-info)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mmbabol/file-info/blob/master/LICENSE)
 
 This is a JavaScript library designed for obtaining file info. It is a lab for
