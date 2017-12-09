@@ -18,6 +18,12 @@ projects on GitHub, using and contributing to GitHub, as well as documenting.
 * Install node modules with  `npm install`
 
 
+## Usage
+
+Once installed and ready to use, simply call the desired function and filename as argument. From the file-info directory, run `npm start` to run all of the functions one after the other. This will display the results and how the programs run. To test a function alone, enter `node src/size.js [txt file name & location]`.
+![alt text(https://s20.postimg.org/548hc95u5/terminal.png)
+
+
 ## Test
 
 To run all tests:
