@@ -2,7 +2,7 @@
 [![BuildStatus](https://travis-ci.org/mmBabol/file-info.svg?branch=master)](https://travis-ci.org/mmBabol/file-info)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mmbabol/file-info/blob/master/LICENSE)
 
-This is a JavaScript library designed for obtaining file info. It is a lab for
+This is an Node.js package designed for obtaining file info. It is a lab for
 the DPS909 - Open Source class at Seneca College, and it is meant for practising creating
 projects on GitHub, using and contributing to GitHub, as well as documenting.
 
