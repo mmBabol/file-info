@@ -2,6 +2,7 @@ var sha1 = require('js-sha1');  // npm install js-sha1
 
 console.log(mySha1('sample/sample.txt'));
 
+// Pass file name into function, return Sha1 digest
 function mySha1(myFilePass){
   // Read the file and print its contents.
   var fs = require('fs'), filename = myFilePass;

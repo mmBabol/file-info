@@ -2,6 +2,7 @@ var md5 = require('js-md5');  // npm install js-md5
 
 console.log(myMd5('sample/sample.txt'));
 
+// Pass file name into function, return MD5 digest
 function myMd5(myFilePass){
   // Read the file and print its contents.
   var fs = require('fs'), filename = myFilePass;

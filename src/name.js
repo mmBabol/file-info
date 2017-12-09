@@ -1,5 +1,7 @@
+console.log(name('sample/sample.txt'));
+
+// Pass file into function, return the name of file only
 function name(myFilePass){
-  //console.log("The name of this file is " + myFile.substr(myFile.indexOf("/") + 1));
   //TODO: change to lastIndexOf + 1 instead of manual count
   return "The name of this file is " + myFilePass.substr(myFilePass.indexOf("/") + 8);
 }

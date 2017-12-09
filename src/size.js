@@ -1,7 +1,9 @@
 var sizeof = require('object-sizeof');  // npm install object-sizeof
 
+console.log(size('sample/sample.txt'));
+
+// Pass file name into function, return fize of file in bytes
 function size(myFilePass){
-  //console.log("This file has " + sizeof(myFile) + " bytes.");
   return "This file has " + sizeof(myFilePass) + " bytes.";
 }
 

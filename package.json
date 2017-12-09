@@ -14,7 +14,7 @@
     "jest-cli": "^21.2.1"
   },
   "scripts": {
-    "start": "node src/FileName.js | node src/FileSize.js | node src/MD5Digest.js | node src/Sha1Digest.js",
+    "start": "node src/name.js | node src/size.js | node src/md5.js | node src/sha1.js",
     "test": "jest",
     "install": "npm install express | npm install js-sha1 | npm install js-md5 | npm install object-sizeof"
   },
