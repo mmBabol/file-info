@@ -9,8 +9,7 @@ projects on GitHub, using and contributing to GitHub, as well as documenting.
 * Print the name of a given filename without the absolute path
 * Print the size of a given filename in MB
 * Create a hash key from Sha1 digest
-* C
-reate a hash key from MD5 digest
+* Create a hash key from MD5 digest
 
 ## Installation
 
